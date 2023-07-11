@@ -176,6 +176,378 @@ button {
   background: #fbdc00;
 }
 
+.headercontainer {
+  background-color: #fbdc00;
+}
+.titlephrase {
+  font-size: 40px;
+}
+.navbaritem {
+  display: flex;
+  font-weight: bold;
+  font-size: 13px;
+}
+.navbaritem:hover {
+  color: #ee3425;
+}
+.whatsappinput {
+  width: 500px;
+  width: 43.5%;
+  padding-left: 10px;
+  height: 30px;
+  outline: transparent;
+}
+.navbarcontainer {
+  width: 100%;
+  position: relative;
+  background-image: url("https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+.navbar-1 {
+  color: white;
+  background-color: #ee3425;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: left 0.5s;
+  align-items: center;
+}
+.offer {
+  width: 70%;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.offer span {
+  font-size: 13px;
+}
+.cancel {
+  width: 30%;
+  text-align: right;
+  padding-right: 40px;
+}
+.navbar-2 img {
+  width: 150px;
+}
+.navbar-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  background-color: #fbdc00;
+}
+.navbar-2.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-2 nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.signupnavbar {
+  background-color: #ee3425;
+  color: white;
+  width: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.navbaritems {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-between;
+}
+.dropdown {
+  display: none;
+}
+.trustanimationcontainer {
+  margin-top: 50px;
+}
+.bannercontact {
+  width: 60%;
+  background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  width: 320px;
+}
+.bannercontactbutton {
+  background-color: #36bb22;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+  height: 30px;
+  font-size: 11px;
+  margin-right: -50px;
+}
+.bannercontainer {
+  position: relative;
+  width: 100%;
+  background-image: url("https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: auto;
+  height: 400px;
+}
+#sticky-contact b {
+  font-size: 10px;
+  color: white;
+}
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  width: 90%;
+  height: 100%;
+  justify-content: space-between;
+  justify-content: center;
+}
+.bannerleft {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding-left: 30px;
+  height: 400px;
+}
+.bannerright {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: end;
+  height: 397px;
+}
+.bannerright video {
+  height: 200px;
+  object-fit: fill;
+  width: 100%;
+  flex: 1 1;
+}
+.mobile_video {
+  display: none;
+}
+.navbaritem img {
+  width: 15px;
+}
+@media (max-width: 1000px) {
+  .navbaritem {
+    font-size: 10px;
+  }
+}
+.taglineproductcontainer {
+  background-color: rgb(248, 252, 239);
+  width: 100%;
+  margin-top: 100px;
+}
+.titlephrase {
+  font-size: 40px;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .titlephrase {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .navbar-2 .navbaritems {
+    display: none;
+  }
+  .navbar-2 {
+    justify-content: left;
+  }
+  .desktop_video {
+    display: none;
+  }
+  .navbaritem {
+    font-size: 10px;
+  }
+  .mobile_video {
+    display: flex;
+  }
+  .auth {
+    display: none;
+  }
+  .bannercontainer {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .bannerright {
+    width: 100%;
+  }
+  .bannerleft {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .signupnavbar,
+  .loginnavbar,
+  .smiley {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .offer {
+    text-align: center;
+  }
+}
+
+.figurecontainer {
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 50px;
+}
+.figures {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin-bottom: -40px;
+}
+.figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.figure div {
+  color: #ee3425;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .navbaritem {
+    font-size: 10px;
+  }
+}
+.taglineproductcontainer {
+  background-color: rgb(248, 252, 239);
+  width: 100%;
+  margin-top: 100px;
+}
+.titlephrase {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .taglinecontainer {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    height: 500px;
+  }
+  .tagline {
+    width: 100%;
+  }
+  .taglineimage {
+    width: 100%;
+  }
+  #tagline1 {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 767px) {
+  .titlephrase {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .navbar-2 .navbaritems {
+    display: none;
+  }
+  .navbar-2 {
+    justify-content: left;
+  }
+  .desktop_video {
+    display: none;
+  }
+  .navbaritem {
+    font-size: 10px;
+  }
+  .mobile_video {
+    display: flex;
+  }
+  .auth {
+    display: none;
+  }
+  .bannercontainer {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .bannerright {
+    width: 100%;
+  }
+  .bannerleft {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .signupnavbar,
+  .loginnavbar,
+  .smiley {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .offer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .figures {
+    padding: 0;
+  }
+  .figurecontainer {
+    width: 100%;
+  }
+  .figure {
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .figure div {
+    font-size: 15px;
+  }
+}
+
 #navbarSupportedContent {
   margin-left: 6%;
 }
@@ -258,6 +630,14 @@ button {
   object-fit: fill;
   width: 100%;
   flex: 1 1;
+}
+
+.whatsappinput {
+  width: 500px;
+  width: 43.5%;
+  padding-left: 10px;
+  height: 30px;
+  outline: transparent;
 }
 
 /* Counts - Container */
@@ -1123,6 +1503,11 @@ video {
   display: flex;
   justify-content: center;
   line-height: 1.2;
+}
+
+.titlephrase {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 @media (max-width: 767px) {
